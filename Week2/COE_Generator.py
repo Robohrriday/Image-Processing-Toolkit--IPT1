@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 
-image = Image.open('img.jpg')
+image = Image.open('./img.jpg')
 new_image = image.resize((128,128))
 
 img = np.array(new_image)
@@ -12,8 +12,8 @@ with open('ip.coe','w') as f:
     for i in range(img.shape[0]):
         for j in range(img.shape[1]):
             if i == img.shape[0]-1 and j == img.shape[1]-1:
-                f.write(f'{img[i,j]};')
+                f.write(f'0;')
             else:
-                f.write(f'{img[i,j]},\n')
+                f.write(f'0,\n')
                 
 f.close()
