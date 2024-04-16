@@ -12,8 +12,8 @@ with open('ip.coe','w') as f:
     for i in range(img.shape[0]):
         for j in range(img.shape[1]):
             if i == img.shape[0]-1 and j == img.shape[1]-1:
-                f.write(f'0;')
+                f.write(f'{img[i,j]};')
             else:
-                f.write(f'0,\n')
+                f.write(f'{img[i,j]},\n')
                 
 f.close()
