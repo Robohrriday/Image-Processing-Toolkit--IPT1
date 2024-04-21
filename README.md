@@ -6,8 +6,11 @@
 
 **Project Topic:** Image Processing Toolbox 
 
+![Image](.Week2/image.png)
+
 Team:</br>
 - Abhinav Goud (22110010)</br>
 - Aditya Mehta (22110017)</br>
 - Hrriday Ruparel (22110099)</br>
 - Sujal Patel (22110261)
+
