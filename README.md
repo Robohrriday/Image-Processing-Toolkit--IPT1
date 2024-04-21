@@ -6,7 +6,7 @@
 
 **Project Topic:** Image Processing Toolbox 
 
-![Image](.Week2/image.png)
+![Image](Week2/image.png)
 
 Team:</br>
 - Abhinav Goud (22110010)</br>
