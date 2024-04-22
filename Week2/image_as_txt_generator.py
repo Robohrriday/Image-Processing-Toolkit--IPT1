@@ -4,7 +4,7 @@ from PIL import Image
 
 image = Image.open('img.jpg')
 new_image = image.resize((128,128))
-
+new_image.save("resized_img.png")
 img = np.array(new_image)
 
 with open('image.txt','w') as f:
