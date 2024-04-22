@@ -14,7 +14,8 @@ Implement an end-to-end Basys3 FPGA Pipeline for building an Image Processing To
 
 ## References:
 - [Image Kernels Explained Visually](https://setosa.io/ev/image-kernels/)
-- [Kernel (image processing) - Wikipedia](https://en.wikipedia.org/wiki/Kernel_(image_processing))
+- [Kernel (Mmage Processing) - Wikipedia](https://en.wikipedia.org/wiki/Kernel_(image_processing))
+- [Signed Number Arithmetic in Verilog](https://www.01signal.com/verilog-design/arithmetic/signed-wire-reg/)
 - [UART Communication on Basys 3, FPGA Dev Board Powered by Xilinx Artix 7 Part I](https://www.instructables.com/UART-Communication-on-Basys-3-FPGA-Dev-Board-Power/)
 - [UART Communication on Basys 3, FPGA Dev Board Powered by Xilinx Artix 7 Part II](https://www.instructables.com/UART-Communication-on-Basys-3-FPGA-Dev-Board-Power-1/)
 - [Shubhayu Das - UART RX and TX cores](https://github.com/Shubhayu-Das/UART-basys3)
