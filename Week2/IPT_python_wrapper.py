@@ -19,7 +19,7 @@ for i in range(16384):
     print(f"{i}: {x}")
     if x>127:
         x = x - 256
-    ot= ComPort.write(struct.pack('b', x))    
+    ot= ComPort.write(struct.pack('b', x))      
     sleep(0.0009)
 print("completed transmission")
 
