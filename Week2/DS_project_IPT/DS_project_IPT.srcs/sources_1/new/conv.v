@@ -12,48 +12,49 @@ output [7:0]din_conv_0,
 input [7:0]dout_conv_1,
 input [7:0]dout_conv_0);
 
+// Parameters
 parameter N = 130;
 parameter p = 3;
+
+// N x N Image; p x p Filter
+// (N-p+1) x (N-p+1) Convolved Image
+
+// Uncomment the following IO signals for standalone implementation. 
+// Variables marked with ***** need to be amended suitably whenever parameter values are changed.
+
 //input [14:0] addr;                      // Address in convolved image ***** [ ceil(2 * log2(N-p+1)) - 1: 0 ]
 //input clk;                              // Clock (100 MHz)
 //input rst;                              // Reset
 //input infer;                            // Used for inferring Convolved Image entries at addr
 //output [7:0] out;                       // Entry of Convolved Image at addr *****
-// the above inputs and outputs were commented out by me(abhinav) as i wanted input output defined in the module def.
 
-//output [3:0] Anode_Activate;
-//output [6:0] LED_out;
-//output reg conv_done;
+
 reg [2:0] slow_clk = 0;                 // *****
 
-//seven_seg_display inst1(.clock_100Mhz(clk), .reset(1'b0), .prod(out), .Anode_Activate(Anode_Activate), .LED_out(LED_out));
-
-reg signed [3:0] filter [0:(p*p)-1];                                       // p x p Filter
-
-//(* ram_style = "block" *) reg [7:0] data [0:(N*N)-1];               // N x N Image
-//(* ram_style = "block" *) reg [11:0] conv [0:(N-p+1)*(N-p+1)-1];    // (N-p+1) x (N-p+1) Convolved Image
+reg signed [3:0] filter [0:(p*p)-1];    // ***** p x p Filter; Add an extra MSB as signed bit respective filter file
 
 reg [1:0] col_counter;                  // ***** [ floor(log2(p)) : 0 ]
 reg [1:0] row_counter;                  // ***** [ floor(log2(p)) : 0 ]
 reg [14:0] w_addr;                      // ***** [ ceil(2 * log2(N-p+1)) - 1: 0 ]
 reg [7:0] offset;                       // ***** [ floor(log2(N-p+1)) : 0 ]
-reg signed [15:0] sum;                  // *****
+reg signed [15:0] sum;                  // ***** Following signed arithmetic rules in verilog. Given in references.
 reg [1:0] state = 0;                        
 
 reg wea2;
-wire [7:0] out1;         // *****
-wire [14:0] addr1;              // *****
+wire [7:0] out1;         // *****   
+wire [14:0] addr1;       // ***** [ ceil(2 * log2(N-p+1)) - 1: 0 ]
 reg [7:0] conv;          // *****
 
 wire signed [8:0] signed_out1;
-assign signed_out1 = out1;
+assign signed_out1 = out1;              // ***** Following signed arithmetic rules in verilog. Given in references.
 
-assign addr1 = w_addr + (p-1)* offset + row_counter * N + col_counter;
+assign addr1 = w_addr + (p-1)* offset + row_counter * N + col_counter; // Index Mapping wrt to write address w_addr
 
+// Uncomment the below BRAM code for standalone implementation.
 //blk_mem_gen_1 padded(.clka(clk), .ena(1), .wea(0), .addra(addr1), .dina(8'd0), .douta(out1));
 //blk_mem_gen_0 convolved(.clka(clk), .ena(1), .wea(wea2), .addra(w_addr), .dina(conv), .douta(out));
 
-
+// BRAM signals
 assign ena_conv_1 = 1;
 assign ena_conv_0 = 1;
 assign wea_conv_1 = 0;
@@ -65,17 +66,18 @@ assign din_conv_0 = conv;
 assign out1 = dout_conv_1;
 assign out = dout_conv_0;
 
-
+// Reading filter values from text file. Filter file format given. Change path accordingly.
 initial begin
-    $readmemb("F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/smooth_filter.txt", filter);
+    $readmemb("F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/smooth_filter.txt", filter); // *****
 end
 
+// Convolution FSM
 always @ (posedge clk)
 begin
     if (slow_clk == 5) begin    
         $display("Clk\n");
         case (state)
-            0: begin
+            0: begin                                    // Idle state with reset.
                 $display("State 0");
                 if (rst) begin
                     $display("(0.1) rst = %d\n",rst);
@@ -94,7 +96,7 @@ begin
                 end
                 conv_done <= 0;
             end
-            1: begin
+            1: begin                                    // State which computes sum of products of filter and image.
                 $display("State = 1");        
                 $display("Filter = %d",filter[col_counter + p*row_counter]);
                 $display("Data = %d",signed_out1);
@@ -123,7 +125,7 @@ begin
                 conv_done <= 0;
                 wea2 <= 0; 
             end
-            2: begin
+            2: begin                                    // State which stores the convolved pixel value in BRAM
                 $display("  State = 2");
                 $display("  Sum = %d",sum);
                 $display("  Conv = %d", conv);  
@@ -158,10 +160,10 @@ begin
     
                 end
                 wea2 <= 1;
-                conv <= sum / 9;
+                conv <= sum / 9;               // ***** Division by 9 specific for average filter. Change according to use.
                 conv_done <= 0;
             end
-            3:begin
+            3:begin                                     // Sink state or state for inferencing
                 $display("State = 3");
                 if (infer & ~rst) begin
                     $display("              (3.1a) infer = %d", infer);

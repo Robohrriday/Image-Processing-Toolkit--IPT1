@@ -17,8 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param chipscope.maxJobs 3
-set_param synth.incrementalSynthesisCache C:/Users/Hrriday/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3144-Hrriday/incrSyn
+set_param chipscope.maxJobs 2
 set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
@@ -28,30 +27,30 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.cache/wt [current_project]
-set_property parent.project_path F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.cache/wt [current_project]
+set_property parent.project_path C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.xpr [current_project]
 set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {C:/Users/Hrriday/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store} [current_project]
+set_property board_part_repo_paths {C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store} [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-set_property ip_output_repo f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.cache/ip [current_project]
+set_property ip_output_repo c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v
-  F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v
+  C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v
 }
-read_ip -quiet f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
-set_property used_in_implementation false [get_files -all f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
+read_ip -quiet C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property used_in_implementation false [get_files -all c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 
-read_ip -quiet f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci
-set_property used_in_implementation false [get_files -all f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1_ooc.xdc]
+read_ip -quiet C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci
+set_property used_in_implementation false [get_files -all c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -61,8 +60,8 @@ set_property used_in_implementation false [get_files -all f:/D/IITGN/ES_204_Digi
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc
-set_property used_in_implementation false [get_files F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]
+read_xdc C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc
+set_property used_in_implementation false [get_files C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

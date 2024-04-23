@@ -36,7 +36,11 @@ parameter div_counter = clk_freq/(baud_rate*div_sample);  // this is the number 
 parameter mid_sample = (div_sample/2);  // this is the middle point of a bit where you want to sample it
 parameter div_bit = 10; // 1 start, 8 data, 1 stop
 
+
+//uncomment the following bram to run imrx as a standalone module
 //blk_mem_gen_0 uut(.clka(clk), .ena(ena), .wea(wea), .addra(addr1), .dina(din), .douta(dout));
+
+//the following assignment is the controlling logic for the bram
 assign ena_imrx = ena;
 assign wea_imrx = wea;
 assign addr_imrx = addr1;

@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Sun Apr 21 16:48:26 2024
-| Host             : Hrriday running 64-bit major release  (build 9200)
+| Date             : Mon Apr 22 20:24:29 2024
+| Host             : DESKTOP-SI2QT2E running 64-bit major release  (build 9200)
 | Command          : report_power -file topmodule_power_routed.rpt -pb topmodule_power_summary_routed.pb -rpx topmodule_power_routed.rpx
 | Design           : topmodule
 | Device           : xc7a35tcpg236-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 16.586 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 13.314 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 16.269                           |
-| Device Static (W)        | 0.318                            |
+| Dynamic (W)              | 13.105                           |
+| Device Static (W)        | 0.209                            |
 | Effective TJA (C/W)      | 5.0                              |
-| Max Ambient (C)          | 2.1                              |
-| Junction Temperature (C) | 107.9                            |
+| Max Ambient (C)          | 18.4                             |
+| Junction Temperature (C) | 91.6                             |
 | Confidence Level         | Low                              |
 | Setting File             | ---                              |
 | Simulation Activity File | ---                              |
@@ -52,18 +52,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     8.513 |     2407 |       --- |             --- |
-|   LUT as Logic |     7.508 |     1231 |     20800 |            5.92 |
-|   CARRY4       |     0.863 |      246 |      8150 |            3.02 |
-|   Register     |     0.094 |      480 |     41600 |            1.15 |
-|   BUFG         |     0.047 |        3 |        32 |            9.38 |
-|   F7/F8 Muxes  |     0.001 |        8 |     32600 |            0.02 |
-|   Others       |     0.000 |       57 |       --- |             --- |
-| Signals        |     7.132 |     1955 |       --- |             --- |
-| Block RAM      |     0.324 |     12.5 |        50 |           25.00 |
-| I/O            |     0.299 |       24 |       106 |           22.64 |
-| Static Power   |     0.318 |          |           |                 |
-| Total          |    16.586 |          |           |                 |
+| Slice Logic    |     6.927 |     1783 |       --- |             --- |
+|   LUT as Logic |     6.154 |      905 |     20800 |            4.35 |
+|   CARRY4       |     0.683 |      193 |      8150 |            2.37 |
+|   Register     |     0.084 |      363 |     41600 |            0.87 |
+|   BUFG         |     0.006 |        1 |        32 |            3.13 |
+|   Others       |     0.000 |       52 |       --- |             --- |
+| Signals        |     5.626 |     1404 |       --- |             --- |
+| Block RAM      |     0.239 |        8 |        50 |           16.00 |
+| I/O            |     0.314 |       24 |       106 |           22.64 |
+| Static Power   |     0.209 |          |           |                 |
+| Total          |    13.314 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,16 +72,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |    16.176 |      15.970 |      0.206 |
-| Vccaux    |       1.800 |     0.046 |       0.010 |      0.036 |
-| Vcco33    |       3.300 |     0.078 |       0.077 |      0.001 |
+| Vccint    |       1.000 |    12.918 |      12.799 |      0.120 |
+| Vccaux    |       1.800 |     0.036 |       0.010 |      0.025 |
+| Vcco33    |       3.300 |     0.082 |       0.081 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.035 |       0.027 |      0.008 |
+| Vccbram   |       1.000 |     0.024 |       0.020 |      0.004 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -140,23 +139,20 @@ Table of Contents
 +------------------------+-----------+
 | Name                   | Power (W) |
 +------------------------+-----------+
-| topmodule              |    16.269 |
-|   original             |     0.367 |
-|     U0                 |     0.367 |
-|       inst_blk_mem_gen |     0.367 |
-|   padded               |     0.139 |
-|     U0                 |     0.139 |
-|       inst_blk_mem_gen |     0.139 |
-|   processed            |     0.291 |
-|     U0                 |     0.291 |
-|       inst_blk_mem_gen |     0.291 |
-|   uut1                 |     0.157 |
-|   uut2                 |     0.100 |
-|   uut3                 |     3.938 |
-|   uut4                 |     5.266 |
-|   uut5                 |     3.947 |
-|   uut6                 |     0.869 |
-|   uut7                 |     0.266 |
+| topmodule              |    13.105 |
+|   original             |     0.262 |
+|     U0                 |     0.262 |
+|       inst_blk_mem_gen |     0.262 |
+|   processed            |     0.246 |
+|     U0                 |     0.246 |
+|       inst_blk_mem_gen |     0.246 |
+|   uut1                 |     0.097 |
+|   uut2                 |     0.204 |
+|   uut3                 |     3.667 |
+|   uut4                 |     3.367 |
+|   uut5                 |     3.775 |
+|   uut6                 |     0.277 |
+|   uut7                 |     0.246 |
 +------------------------+-----------+
 
 

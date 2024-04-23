@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713698166">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713797543">
   <File Type="BITSTR-BMM" Name="topmodule_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="topmodule_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="topmodule_timing_summary_init.rpt"/>
@@ -159,9 +159,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

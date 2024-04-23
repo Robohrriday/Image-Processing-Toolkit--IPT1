@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc rfile:../../../DS_project_IPT.srcs/constrs_1/new/c4.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc rfile:../../../DS_project_IPT.srcs/constrs_1/new/c4.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:51 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B18 [get_ports Rx]
 set_property src_info {type:XDC file:1 line:52 export:INPUT save:INPUT read:READ} [current_design]

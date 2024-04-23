@@ -29,7 +29,10 @@ reg shift; //shift signal to start bit shifting in UART
 reg load; //load signal to start loading the data into rightshift register and add start and stop bit
 reg clear; //clear signal to start reset the bitcounter for UART transmission
 
+//uncomment the following bram to use imtx as a standalone image transmitter module
 //blk_mem_gen_0 uut3(.clka(clk), .ena(1), .wea(0), .addra(address), .dina(0), .douta(dout));
+
+//the following assignment is for the controlling logic of the bram
 assign ena_tx = 1;
 assign wea_tx = 0;
 assign addr_tx = address;

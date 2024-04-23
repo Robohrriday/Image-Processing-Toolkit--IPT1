@@ -15,136 +15,164 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16936 
+INFO: Helper process launched with PID 44064 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1207.156 ; gain = 229.605
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1206.441 ; gain = 228.301
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'topmodule' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v:23]
-INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-6504-Hrriday/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (1#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-6504-Hrriday/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-6504-Hrriday/realtime/blk_mem_gen_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (2#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-6504-Hrriday/realtime/blk_mem_gen_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'imrx' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'topmodule' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-31784-DESKTOP-SI2QT2E/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (1#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-31784-DESKTOP-SI2QT2E/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-31784-DESKTOP-SI2QT2E/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (2#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.runs/synth_1/.Xil/Vivado-31784-DESKTOP-SI2QT2E/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'imrx' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:3]
 	Parameter clk_freq bound to: 100000000 - type: integer 
 	Parameter baud_rate bound to: 9600 - type: integer 
 	Parameter div_sample bound to: 4 - type: integer 
 	Parameter div_counter bound to: 2604 - type: integer 
 	Parameter mid_sample bound to: 2 - type: integer 
 	Parameter div_bit bound to: 10 - type: integer 
-INFO: [Synth 8-226] default block is never used [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:85]
-INFO: [Synth 8-4471] merging register 'inc_bytecounter_reg' into 'wea_reg' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:79]
-WARNING: [Synth 8-6014] Unused sequential element inc_bytecounter_reg was removed.  [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:79]
-INFO: [Synth 8-6155] done synthesizing module 'imrx' (3#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:3]
-INFO: [Synth 8-6157] synthesizing module 'imtx' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v:3]
-INFO: [Synth 8-226] default block is never used [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v:78]
-INFO: [Synth 8-6155] done synthesizing module 'imtx' (4#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v:3]
-INFO: [Synth 8-6157] synthesizing module 'padder' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v:4]
+INFO: [Synth 8-226] default block is never used [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:85]
+INFO: [Synth 8-4471] merging register 'inc_bytecounter_reg' into 'wea_reg' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:79]
+WARNING: [Synth 8-6014] Unused sequential element inc_bytecounter_reg was removed.  [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'imrx' (3#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imrx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'imtx' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'imtx' (4#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imtx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'padder' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v:4]
 	Parameter N bound to: 128 - type: integer 
-WARNING: [Synth 8-3848] Net din1 in module/entity padder does not have driver. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v:25]
-INFO: [Synth 8-6155] done synthesizing module 'padder' (5#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v:4]
-INFO: [Synth 8-6157] synthesizing module 'pad2' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:4]
+WARNING: [Synth 8-3848] Net din1 in module/entity padder does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'padder' (5#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/padder.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pad2' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:4]
 	Parameter N bound to: 128 - type: integer 
-WARNING: [Synth 8-3848] Net out1_2 in module/entity pad2 does not have driver. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:7]
-WARNING: [Synth 8-3848] Net out2_2 in module/entity pad2 does not have driver. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:8]
-WARNING: [Synth 8-3848] Net din1 in module/entity pad2 does not have driver. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:25]
-INFO: [Synth 8-6155] done synthesizing module 'pad2' (6#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:4]
-INFO: [Synth 8-6157] synthesizing module 'conv' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:3]
+WARNING: [Synth 8-3848] Net out1_2 in module/entity pad2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:7]
+WARNING: [Synth 8-3848] Net out2_2 in module/entity pad2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:8]
+WARNING: [Synth 8-3848] Net din1 in module/entity pad2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'pad2' (6#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/pad2.v:4]
+INFO: [Synth 8-6157] synthesizing module 'conv' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:3]
 	Parameter N bound to: 130 - type: integer 
 	Parameter p bound to: 3 - type: integer 
-INFO: [Synth 8-3876] $readmem data file 'F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/smooth_filter.txt' is read successfully [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:70]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/smooth_filter.txt'; please make sure the file is added to project and has read permission, ignoring [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:70]
 INFO: [Synth 8-251] Clk
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:76]
-INFO: [Synth 8-251] State 0 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:79]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:76]
+INFO: [Synth 8-251] State 0 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:79]
 INFO: [Synth 8-251] (0.1) rst = 1
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:81]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:81]
 INFO: [Synth 8-251] (0.2) rst = 0
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:92]
-INFO: [Synth 8-251] State = 1 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:98]
-INFO: [Synth 8-251] Filter = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:99]
-INFO: [Synth 8-251] Data = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:100]
-INFO: [Synth 8-251] Sum = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:101]
-INFO: [Synth 8-251] (1.1a) col_counter = 2 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:103]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:92]
+INFO: [Synth 8-251] State = 1 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:98]
+INFO: [Synth 8-251] Filter = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:99]
+INFO: [Synth 8-251] Data = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:100]
+INFO: [Synth 8-251] Sum = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:101]
+INFO: [Synth 8-251] (1.1a) col_counter = 2 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:103]
 INFO: [Synth 8-251] (1.1b) row = 2
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:104]
-INFO: [Synth 8-251] (1.2a) col_counter = 2 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:110]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:104]
+INFO: [Synth 8-251] (1.2a) col_counter = 2 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:110]
 INFO: [Synth 8-251] (1.2b) row = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:111]
-INFO: [Synth 8-251] (1.3a) col_counter = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:117]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:111]
+INFO: [Synth 8-251] (1.3a) col_counter = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:117]
 INFO: [Synth 8-251] (1.3b) row = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:118]
-INFO: [Synth 8-251]   State = 2 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:127]
-INFO: [Synth 8-251]   Sum = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:128]
-INFO: [Synth 8-251]   Conv = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:129]
-INFO: [Synth 8-251]   wea2 = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:130]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:118]
+INFO: [Synth 8-251]   State = 2 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:127]
+INFO: [Synth 8-251]   Sum = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:128]
+INFO: [Synth 8-251]   Conv = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:129]
+INFO: [Synth 8-251]   wea2 = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:130]
 INFO: [Synth 8-251]       (2.1) W_addr = 16384
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:132]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:132]
 INFO: [Synth 8-251]       (2.1) W_addr = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:145]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:145]
 INFO: [Synth 8-251]       (2.1) W_addr = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:153]
-INFO: [Synth 8-251] State = 3 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:165]
-INFO: [Synth 8-251]               (3.1a) infer = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:167]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:153]
+INFO: [Synth 8-251] State = 3 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:165]
+INFO: [Synth 8-251]               (3.1a) infer = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:167]
 INFO: [Synth 8-251]               (3.1b) rst = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:168]
-INFO: [Synth 8-251]               (3.2a) infer = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:177]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:168]
+INFO: [Synth 8-251]               (3.2a) infer = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:177]
 INFO: [Synth 8-251]               (3.2b) rst = 1
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:178]
-INFO: [Synth 8-251]               (3.3a) infer = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:189]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:178]
+INFO: [Synth 8-251]               (3.3a) infer = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:189]
 INFO: [Synth 8-251]               (3.3b) rst = 0
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:190]
-INFO: [Synth 8-6155] done synthesizing module 'conv' (7#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:3]
-INFO: [Synth 8-6157] synthesizing module 'conv2' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:3]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:190]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'conv' (7#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:3]
+INFO: [Synth 8-6157] synthesizing module 'conv2' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:3]
 	Parameter N bound to: 130 - type: integer 
 	Parameter p bound to: 3 - type: integer 
-INFO: [Synth 8-3876] $readmem data file 'F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/sharp_filter.txt' is read successfully [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:70]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/sharp_filter.txt'; please make sure the file is added to project and has read permission, ignoring [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:70]
 INFO: [Synth 8-251] Clk
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:76]
-INFO: [Synth 8-251] State 0 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:79]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:76]
+INFO: [Synth 8-251] State 0 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:79]
 INFO: [Synth 8-251] (0.1) rst = 1
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:81]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:81]
 INFO: [Synth 8-251] (0.2) rst = 0
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:92]
-INFO: [Synth 8-251] State = 1 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:98]
-INFO: [Synth 8-251] Filter = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:99]
-INFO: [Synth 8-251] Data = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:100]
-INFO: [Synth 8-251] Sum = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:101]
-INFO: [Synth 8-251] (1.1a) col_counter = 2 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:103]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:92]
+INFO: [Synth 8-251] State = 1 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:98]
+INFO: [Synth 8-251] Filter = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:99]
+INFO: [Synth 8-251] Data = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:100]
+INFO: [Synth 8-251] Sum = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:101]
+INFO: [Synth 8-251] (1.1a) col_counter = 2 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:103]
 INFO: [Synth 8-251] (1.1b) row = 2
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:104]
-INFO: [Synth 8-251] (1.2a) col_counter = 2 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:110]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:104]
+INFO: [Synth 8-251] (1.2a) col_counter = 2 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:110]
 INFO: [Synth 8-251] (1.2b) row = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:111]
-INFO: [Synth 8-251] (1.3a) col_counter = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:117]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:111]
+INFO: [Synth 8-251] (1.3a) col_counter = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:117]
 INFO: [Synth 8-251] (1.3b) row = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:118]
-INFO: [Synth 8-251]   State = 2 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:127]
-INFO: [Synth 8-251]   Sum = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:128]
-INFO: [Synth 8-251]   Conv = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:129]
-INFO: [Synth 8-251]   wea2 = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:130]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:118]
+INFO: [Synth 8-251]   State = 2 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:127]
+INFO: [Synth 8-251]   Sum = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:128]
+INFO: [Synth 8-251]   Conv = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:129]
+INFO: [Synth 8-251]   wea2 = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:130]
 INFO: [Synth 8-251]       (2.1) W_addr = 16384
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:132]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:132]
 INFO: [Synth 8-251]       (2.1) W_addr = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:145]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:145]
 INFO: [Synth 8-251]       (2.1) W_addr = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:153]
-INFO: [Synth 8-251] State = 3 [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:167]
-INFO: [Synth 8-251]               (3.1a) infer = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:169]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:153]
+INFO: [Synth 8-251] State = 3 [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:167]
+INFO: [Synth 8-251]               (3.1a) infer = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:169]
 INFO: [Synth 8-251]               (3.1b) rst = x
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:170]
-INFO: [Synth 8-251]               (3.2a) infer = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:179]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:170]
+INFO: [Synth 8-251]               (3.2a) infer = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:179]
 INFO: [Synth 8-251]               (3.2b) rst = 1
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:180]
-INFO: [Synth 8-251]               (3.3a) infer = x [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:191]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:180]
+INFO: [Synth 8-251]               (3.3a) infer = x [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:191]
 INFO: [Synth 8-251]               (3.3b) rst = 0
- [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:192]
-WARNING: [Synth 8-3848] Net out_2 in module/entity conv2 does not have driver. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'conv2' (8#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:3]
-INFO: [Synth 8-6157] synthesizing module 'IM_Adder' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:3]
+ [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:192]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net out_2 in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:3]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+WARNING: [Synth 8-3848] Net filter in module/entity conv2 does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'conv2' (8#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:3]
+INFO: [Synth 8-6157] synthesizing module 'IM_Adder' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:3]
 	Parameter N bound to: 128 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:57]
-INFO: [Synth 8-6155] done synthesizing module 'IM_Adder' (9#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:3]
-WARNING: [Synth 8-3848] Net dataout_topmodule in module/entity topmodule does not have driver. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v:33]
-INFO: [Synth 8-6155] done synthesizing module 'topmodule' (10#1) [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'IM_Adder' (9#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:3]
+WARNING: [Synth 8-3848] Net dataout_topmodule in module/entity topmodule does not have driver. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'topmodule' (10#1) [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/topmodule.v:23]
 WARNING: [Synth 8-3331] design conv2 has unconnected port out_2[7]
 WARNING: [Synth 8-3331] design conv2 has unconnected port out_2[6]
 WARNING: [Synth 8-3331] design conv2 has unconnected port out_2[5]
@@ -218,7 +246,7 @@ WARNING: [Synth 8-3331] design topmodule has unconnected port dataout_topmodule[
 WARNING: [Synth 8-3331] design topmodule has unconnected port dataout_topmodule[1]
 WARNING: [Synth 8-3331] design topmodule has unconnected port dataout_topmodule[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1283.766 ; gain = 306.215
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1282.574 ; gain = 304.434
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -231,42 +259,42 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1283.766 ; gain = 306.215
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1282.574 ; gain = 304.434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1283.766 ; gain = 306.215
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1282.574 ; gain = 304.434
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1283.766 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1282.574 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'original'
-Finished Parsing XDC File [f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'original'
-Parsing XDC File [f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'processed'
-Finished Parsing XDC File [f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'processed'
-Parsing XDC File [f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'padded'
-Finished Parsing XDC File [f:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'padded'
-Parsing XDC File [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]
-Finished Parsing XDC File [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topmodule_propImpl.xdc].
+Parsing XDC File [c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'original'
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'original'
+Parsing XDC File [c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'processed'
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'processed'
+Parsing XDC File [c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'padded'
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'padded'
+Parsing XDC File [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/constrs_1/new/c4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topmodule_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/topmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.859 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.332 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1384.859 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1384.332 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -275,12 +303,10 @@ Applied set_property DONT_TOUCH = true for original. (constraint file  auto gene
 Applied set_property DONT_TOUCH = true for processed. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for padded. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5544] ROM "filter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "filter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-4471] merging register 'ena2_reg' into 'ena1_reg' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:37]
-WARNING: [Synth 8-3936] Found unconnected internal register 'sum_reg' and it is trimmed from '9' to '8' bits. [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:74]
+INFO: [Synth 8-4471] merging register 'ena2_reg' into 'ena1_reg' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sum_reg' and it is trimmed from '9' to '8' bits. [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/imadd.v:74]
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'IM_Adder'
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
@@ -293,7 +319,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'IM_Ad
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'IM_Adder'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -338,7 +364,6 @@ Detailed RTL Component Info :
 	   2 Input      8 Bit        Muxes := 8     
 	   5 Input      5 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 1     
-	  10 Input      4 Bit        Muxes := 2     
 	   5 Input      3 Bit        Muxes := 2     
 	   2 Input      3 Bit        Muxes := 2     
 	   3 Input      2 Bit        Muxes := 4     
@@ -469,7 +494,6 @@ Detailed RTL Component Info :
 	   4 Input     15 Bit        Muxes := 1     
 	   4 Input      8 Bit        Muxes := 2     
 	   2 Input      8 Bit        Muxes := 1     
-	  10 Input      4 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 1     
 	   3 Input      2 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 4     
@@ -499,7 +523,6 @@ Detailed RTL Component Info :
 	   4 Input     15 Bit        Muxes := 1     
 	   4 Input      8 Bit        Muxes := 2     
 	   2 Input      8 Bit        Muxes := 2     
-	  10 Input      4 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 1     
 	   3 Input      2 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 4     
@@ -538,16 +561,16 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-4471] merging register 'offset_reg[7:0]' into 'offset_reg[7:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
-INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
-INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
-INFO: [Synth 8-4471] merging register 'w_addr_reg[14:0]' into 'w_addr_reg[14:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
-INFO: [Synth 8-4471] merging register 'col_counter_reg[1:0]' into 'col_counter_reg[1:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
-INFO: [Synth 8-4471] merging register 'offset_reg[7:0]' into 'offset_reg[7:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
-INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
-INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
-INFO: [Synth 8-4471] merging register 'w_addr_reg[14:0]' into 'w_addr_reg[14:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
-INFO: [Synth 8-4471] merging register 'col_counter_reg[1:0]' into 'col_counter_reg[1:0]' [F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
+INFO: [Synth 8-4471] merging register 'offset_reg[7:0]' into 'offset_reg[7:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
+INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
+INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
+INFO: [Synth 8-4471] merging register 'w_addr_reg[14:0]' into 'w_addr_reg[14:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
+INFO: [Synth 8-4471] merging register 'col_counter_reg[1:0]' into 'col_counter_reg[1:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv.v:51]
+INFO: [Synth 8-4471] merging register 'offset_reg[7:0]' into 'offset_reg[7:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
+INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
+INFO: [Synth 8-4471] merging register 'row_counter_reg[1:0]' into 'row_counter_reg[1:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
+INFO: [Synth 8-4471] merging register 'w_addr_reg[14:0]' into 'w_addr_reg[14:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
+INFO: [Synth 8-4471] merging register 'col_counter_reg[1:0]' into 'col_counter_reg[1:0]' [C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.srcs/sources_1/new/conv2.v:51]
 WARNING: [Synth 8-3331] design conv2 has unconnected port out_2[7]
 WARNING: [Synth 8-3331] design conv2 has unconnected port out_2[6]
 WARNING: [Synth 8-3331] design conv2 has unconnected port out_2[5]
@@ -577,16 +600,12 @@ WARNING: [Synth 8-3331] design pad2 has unconnected port out2_2[6]
 WARNING: [Synth 8-3331] design pad2 has unconnected port out2_2[5]
 WARNING: [Synth 8-3331] design pad2 has unconnected port out2_2[4]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut7/wea1_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uut7/wea1_reg)
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (ena_padded_reg)
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut5/flag_2_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut3/flag_reg )
-INFO: [Synth 8-3886] merging instance 'uut4/col_counter_reg[0]__0' (FDE) to 'uut4/col_counter_reg[0]'
-INFO: [Synth 8-3886] merging instance 'uut4/col_counter_reg[1]__0' (FDE) to 'uut4/col_counter_reg[1]'
-INFO: [Synth 8-3886] merging instance 'uut6/col_counter_reg[0]__0' (FDE) to 'uut6/col_counter_reg[0]'
-INFO: [Synth 8-3886] merging instance 'uut6/col_counter_reg[1]__0' (FDE) to 'uut6/col_counter_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uut5/flag_2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (uut3/flag_reg)
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -598,13 +617,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1384.859 ; gain = 407.309
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1384.332 ; gain = 406.191
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -615,8 +634,19 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[0]' (FDSE) to 'uut6/conv_reg[1]'
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[1]' (FDSE) to 'uut6/conv_reg[2]'
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[2]' (FDSE) to 'uut6/conv_reg[3]'
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[3]' (FDSE) to 'uut6/conv_reg[4]'
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[4]' (FDSE) to 'uut6/conv_reg[5]'
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[5]' (FDSE) to 'uut6/conv_reg[6]'
+INFO: [Synth 8-3886] merging instance 'uut6/conv_reg[6]' (FDSE) to 'uut6/conv_reg[7]'
+INFO: [Synth 8-3886] merging instance 'uut6/col_counter_reg[0]__0' (FDRE) to 'uut6/col_counter_reg[0]'
+INFO: [Synth 8-3886] merging instance 'uut6/col_counter_reg[1]__0' (FDRE) to 'uut6/col_counter_reg[1]'
+INFO: [Synth 8-3886] merging instance 'uut4/col_counter_reg[0]__0' (FDRE) to 'uut4/col_counter_reg[0]'
+INFO: [Synth 8-3886] merging instance 'uut4/col_counter_reg[1]__0' (FDRE) to 'uut4/col_counter_reg[1]'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1407.070 ; gain = 429.520
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1410.379 ; gain = 432.238
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -640,13 +670,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -665,25 +695,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -705,15 +735,15 @@ Report Cell Usage:
 |2     |blk_mem_gen_0__2 |     1|
 |3     |blk_mem_gen_1    |     1|
 |4     |BUFG             |     1|
-|5     |CARRY4           |   246|
+|5     |CARRY4           |   231|
 |6     |LUT1             |    87|
-|7     |LUT2             |   332|
-|8     |LUT3             |   333|
-|9     |LUT4             |   298|
-|10    |LUT5             |   259|
-|11    |LUT6             |   256|
-|12    |FDRE             |   435|
-|13    |FDSE             |    29|
+|7     |LUT2             |   342|
+|8     |LUT3             |   258|
+|9     |LUT4             |   223|
+|10    |LUT5             |   222|
+|11    |LUT6             |   218|
+|12    |FDRE             |   383|
+|13    |FDSE             |    30|
 |14    |IBUF             |     9|
 |15    |OBUF             |     7|
 |16    |OBUFT            |     8|
@@ -723,38 +753,38 @@ Report Instance Areas:
 +------+---------+---------+------+
 |      |Instance |Module   |Cells |
 +------+---------+---------+------+
-|1     |top      |         |  2324|
-|2     |  uut1   |imrx     |   124|
-|3     |  uut2   |imtx     |    95|
-|4     |  uut3   |padder   |   382|
-|5     |  uut4   |conv     |   777|
-|6     |  uut5   |pad2     |   388|
-|7     |  uut6   |conv2    |   259|
-|8     |  uut7   |IM_Adder |    99|
+|1     |top      |         |  2043|
+|2     |  uut1   |imrx     |   112|
+|3     |  uut2   |imtx     |   121|
+|4     |  uut3   |padder   |   379|
+|5     |  uut4   |conv     |   542|
+|6     |  uut5   |pad2     |   398|
+|7     |  uut6   |conv2    |   126|
+|8     |  uut7   |IM_Adder |   102|
 +------+---------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 73 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1412.488 ; gain = 333.844
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1412.488 ; gain = 434.938
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1415.680 ; gain = 335.781
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1415.680 ; gain = 437.539
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1424.543 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 246 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1427.723 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 231 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1424.543 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1427.723 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-118 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+121 Infos, 126 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 1424.543 ; gain = 706.086
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1424.543 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1427.723 ; gain = 706.266
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1427.723 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'F:/D/IITGN/ES_204_Digital_Systems/DS_project_IPT/DS_project_IPT.runs/synth_1/topmodule.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DELL/Downloads/Image-Processing-Toolkit--IPT1-main/Image-Processing-Toolkit--IPT1-main/Week2/DS_project_IPT/DS_project_IPT.runs/synth_1/topmodule.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file topmodule_utilization_synth.rpt -pb topmodule_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 16:46:59 2024...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 22 20:23:25 2024...

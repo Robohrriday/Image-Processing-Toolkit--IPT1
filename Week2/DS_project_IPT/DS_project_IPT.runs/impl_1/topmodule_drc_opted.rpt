@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sun Apr 21 16:47:44 2024
-| Host         : Hrriday running 64-bit major release  (build 9200)
+| Date         : Mon Apr 22 20:24:01 2024
+| Host         : DESKTOP-SI2QT2E running 64-bit major release  (build 9200)
 | Command      : report_drc -file topmodule_drc_opted.rpt -pb topmodule_drc_opted.pb -rpx topmodule_drc_opted.rpx
 | Design       : topmodule
 | Device       : xc7a35tcpg236-1
