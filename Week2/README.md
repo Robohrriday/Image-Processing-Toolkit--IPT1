@@ -10,7 +10,7 @@ Implement an end-to-end Basys3 FPGA Pipeline for building an Image Processing To
 - Bitstream File (HolyGrail.bit)
 - Python Wrapper (IPT_python_wrapper.py)
 - Week 2 Report explaining the task and codes
-- [Week 2 Task Demonstration Video](https://drive.google.com/file/d/1i-r7X0kJSB9Mibeq6efwSI7RElYPJJvN/view?usp=sharing##)
+- [Week 2 Task Demonstration Video](https://iitgnacin-my.sharepoint.com/:v:/g/personal/22110017_iitgn_ac_in/Eayq9b27AlBPmoLOat-zMHwBIahVDfgzWdXLCxUin6NH4A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CObFjZ)
 
 ## References:
 - [Image Kernels Explained Visually](https://setosa.io/ev/image-kernels/)
