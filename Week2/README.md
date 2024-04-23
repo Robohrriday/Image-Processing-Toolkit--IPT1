@@ -6,6 +6,7 @@ Implement an end-to-end Basys3 FPGA Pipeline for building an Image Processing To
 
 ## Important Files:
 - Verilog Codes (topmodule.v, imrx.v, padder.v, conv.v, pad2.v, conv2.v, imadd.v, imtx.v)
+- Filter Files (smooth_filter.txt, sharp_filter.txt)
 - Constraint File (c4.xdc)
 - Bitstream File (HolyGrail.bit)
 - Python Wrapper (IPT_python_wrapper.py)
